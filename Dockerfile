@@ -14,7 +14,7 @@ USER 443D_fructe
 WORKDIR /home/443D_fructe/
 
 COPY app app
-COPY dockerstart.sh dockerstart.sh
+#COPY dockerstart.sh dockerstart.sh
 
 RUN python -m venv .venv
 RUN .venv/bin/pip install -r app/quickrequirements.txt
