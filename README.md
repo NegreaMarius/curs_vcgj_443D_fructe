@@ -5,4 +5,4 @@
 - adaugare cod testare
 - execute manuala
 
-[README_NegreaMarius](./README_NegreaMarius.md)
+[README_NegreaMarius_rodie](./README_NegreaMarius_rodie.md)
