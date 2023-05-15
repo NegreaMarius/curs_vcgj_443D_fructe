@@ -59,4 +59,39 @@ def obtine_anotimp_afine():
  ------------------------------------
 '''
 
+@app.route("/capsuni", methods=['GET'])   
+def get_capsuni():
+    ret = "<h1>Capsuni: </h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_capsuni()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_capsuni()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_capsuni()
+    ret += "<br>"
+
+    return ret
+
+@app.route("/capsuni/culoare", methods=['GET'])
+def get_culoare_capsuni():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_capsuni()
+    return ret
+
+@app.route("/capsuni/gust", methods=['GET'])
+def get_gust_capsuni():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_capsuni()
+    return ret
+
+@app.route("/capsuni/anotimp", methods=['GET'])
+def get_anotimp_capsuni():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_capsuni()
+    return ret
+
 #app.run(host = "127.0.0.1", port = 5001)
