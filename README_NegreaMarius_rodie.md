@@ -1,5 +1,7 @@
 Configurat Docker
+
 Rulat aplicatie din Docker
+
 De adaugat exemplu personal - rodie
 
 Exemplu afine - crchende
