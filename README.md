@@ -10,3 +10,6 @@
 
 # BĂNESCU A.F. Alexandru - capsuna: 
 [README_BanescuAlexandru_capsuna](./README_BanescuAlexandru_capsuna.md)
+
+# BELIŢOIU F.M. Rareş-Florian - mar: 
+[README_BelitoiuRares_rodie](./README_BelitoiuRares_mar.md)
