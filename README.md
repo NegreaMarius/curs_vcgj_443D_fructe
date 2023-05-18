@@ -16,3 +16,7 @@
 
 # ŞPAN O. Lorin - vanata: 
 [README_lorinspan_vanata](./README_lorinspan_vanata.md)
+
+# VASILESCU P. Bogdan - piersica: 
+[README_bogdanishere_piersica](./README_bogdanishere_piersica.md)
+
