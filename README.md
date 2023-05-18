@@ -22,3 +22,6 @@
 
 # VASILE M. Vlad-Andrei - kiwi: 
 [README_vladvasile1_kiwi](./README_vladvasile1_kiwi.md)
+
+# TUDOSE V.D. Bogdan-Mihai - portocala: 
+[README_bobtudose_portocala](./README_bobtudose_portocala.md)
