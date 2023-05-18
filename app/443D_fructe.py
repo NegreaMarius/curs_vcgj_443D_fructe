@@ -217,5 +217,47 @@ def obtine_anotimp_vanata():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_vanata()
     return ret
-      
+ 
+'''
+ ------------------------------------
+    #25. VASILESCU P. Bogdan - piersica
+ ------------------------------------
+'''
+
+@app.route("/piersica", methods=['GET'])
+def obtine_piersica():
+    ret = "<h1>piersica:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_piersica()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_piersica()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_piersica()
+    ret += "<br>"
+
+    print("DBG: apel obtine_piersica")
+    return ret
+
+@app.route("/piersica/culoare", methods=['GET'])
+def obtine_culoare_piersica():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_piersica()
+    return ret
+
+@app.route("/piersica/gust", methods=['GET'])
+def obtine_gust_piersica():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_piersica()
+    return ret
+
+@app.route("/piersica/anotimp", methods=['GET'])
+def obtine_anotimp_piersica():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_piersica()
+    return ret
+     
 app.run(host = "127.0.0.1", port = 5002)

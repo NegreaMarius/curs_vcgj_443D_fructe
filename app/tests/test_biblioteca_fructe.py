@@ -133,3 +133,30 @@ def test_anotimp_vanata():
         assert True
     else:
         assert False
+
+'''
+ ------------------------------------
+    #25. VASILESCU P. Bogdan - piersica
+ ------------------------------------
+'''
+
+def test_culoare_piersica():
+    cul = b_fructe.culoare_piersica()
+    if cul == 'portocaliu':
+        assert True
+    else:
+        assert False
+
+def test_gust_piersica():
+    inf = b_fructe.gust_piersica()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_piersica():
+    inf = b_fructe.anotimp_piersica()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False

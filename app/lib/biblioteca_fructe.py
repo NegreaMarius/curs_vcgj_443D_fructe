@@ -72,3 +72,20 @@ def gust_vanata():
 def anotimp_vanata():
     return("vara")
     
+
+'''
+ ------------------------------------
+    #25. VASILESCU P. Bogdan - piersica
+ ------------------------------------
+'''
+
+def culoare_piersica():
+    return("portocaliu")
+
+def gust_piersica():
+    return("dulce")
+
+def anotimp_piersica():
+    return("vara")
+
+    
