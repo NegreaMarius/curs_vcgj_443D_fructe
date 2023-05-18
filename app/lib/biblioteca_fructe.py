@@ -57,3 +57,18 @@ def gust_mar():
 def anotimp_mar():
     return("toamna")
     
+'''
+ ------------------------------------
+    #19. ŞPAN O. Lorin - vanata
+ ------------------------------------
+'''
+
+def culoare_vanata():
+    return("mov")
+
+def gust_vanata():
+    return("dulce_acrisor")
+
+def anotimp_vanata():
+    return("vara")
+    

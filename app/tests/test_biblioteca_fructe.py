@@ -106,3 +106,30 @@ def test_anotimp_mar():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #19. ŞPAN O. Lorin - vanata
+ ------------------------------------
+'''
+
+def test_culoare_vanata():
+    cul = b_fructe.culoare_vanata()
+    if cul == 'mov':
+        assert True
+    else:
+        assert False
+
+def test_gust_vanata():
+    inf = b_fructe.gust_vanata()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_vanata():
+    inf = b_fructe.anotimp_vanata()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False
