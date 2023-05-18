@@ -80,3 +80,29 @@ def test_anotimp_capsuna():
         assert True
     else:
         assert False
+'''
+ ------------------------------------
+    #04. BELIŢOIU F.M. Rareş-Florian - mar
+ ------------------------------------
+'''
+
+def test_culoare_mar():
+    cul = b_fructe.culoare_mar()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_mar():
+    inf = b_fructe.gust_mar()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_mar():
+    inf = b_fructe.anotimp_mar()
+    if inf == 'toamna':
+        assert True
+    else:
+        assert False

@@ -42,3 +42,18 @@ def gust_capsuna():
 
 def anotimp_capsuna():
     return("toamna")
+'''
+ ------------------------------------
+    #04. BELIŢOIU F.M. Rareş-Florian - mar
+ ------------------------------------
+'''
+
+def culoare_mar():
+    return("verde")
+
+def gust_mar():
+    return("dulce_acrisor")
+
+def anotimp_mar():
+    return("toamna")
+    

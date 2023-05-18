@@ -134,4 +134,46 @@ def obtine_anotimp_capsuna():
     ret += lib.biblioteca_fructe.anotimp_capsuna()
     return ret
     
+'''
+ ------------------------------------
+    #04. BELIŢOIU F.M. Rareş-Florian - mar
+ ------------------------------------
+'''
+
+@app.route("/mar", methods=['GET'])
+def obtine_mar():
+    ret = "<h1>mar:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_mar()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_mar()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_mar()
+    ret += "<br>"
+
+    print("DBG: apel obtine_mar")
+    return ret
+
+@app.route("/mar/culoare", methods=['GET'])
+def obtine_culoare_mar():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_mar()
+    return ret
+
+@app.route("/mar/gust", methods=['GET'])
+def obtine_gust_mar():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_mar()
+    return ret
+
+@app.route("/mar/anotimp", methods=['GET'])
+def obtine_anotimp_mar():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_mar()
+    return ret
+      
 app.run(host = "127.0.0.1", port = 5002)
