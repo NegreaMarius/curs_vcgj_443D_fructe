@@ -49,3 +49,5 @@ def obtine_anotimp_afine():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_afine()
     return ret
+
+app.run(host = "127.0.0.1", port = 5002)
