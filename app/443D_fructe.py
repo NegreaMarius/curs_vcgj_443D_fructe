@@ -50,4 +50,46 @@ def obtine_anotimp_afine():
     ret += lib.biblioteca_fructe.anotimp_afine()
     return ret
 
+'''
+ ------------------------------------
+    #10. NEGREA M. Marius-Ştefan - rodie
+ ------------------------------------
+'''
+
+@app.route("/rodie", methods=['GET'])
+def obtine_rodie():
+    ret = "<h1>rodie:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_rodie()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_rodie()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_rodie()
+    ret += "<br>"
+
+    print("DBG: apel obtine_rodie")
+    return ret
+
+@app.route("/rodie/culoare", methods=['GET'])
+def obtine_culoare_rodie():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_rodie()
+    return ret
+
+@app.route("/rodie/gust", methods=['GET'])
+def obtine_gust_rodie():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_rodie()
+    return ret
+
+@app.route("/rodie/anotimp", methods=['GET'])
+def obtine_anotimp_rodie():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_rodie()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)
