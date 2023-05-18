@@ -259,5 +259,46 @@ def obtine_anotimp_piersica():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_piersica()
     return ret
-     
+    
+    '''
+ ------------------------------------
+    #24. VASILE M. Vlad-Andrei - kiwi
+ ------------------------------------
+'''
+
+@app.route("/kiwi", methods=['GET'])
+def obtine_kiwi():
+    ret = "<h1>kiwi:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_kiwi()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_kiwi()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_kiwi()
+    ret += "<br>"
+
+    print("DBG: apel obtine_kiwi")
+    return ret
+
+@app.route("/kiwi/culoare", methods=['GET'])
+def obtine_culoare_kiwi():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_kiwi()
+    return ret
+
+@app.route("/kiwi/gust", methods=['GET'])
+def obtine_gust_kiwi():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_kiwi()
+    return ret
+
+@app.route("/kiwi/anotimp", methods=['GET'])
+def obtine_anotimp_kiwi():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_kiwi()
+    return ret 
 app.run(host = "127.0.0.1", port = 5002)

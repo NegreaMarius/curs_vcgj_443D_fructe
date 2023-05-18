@@ -160,3 +160,30 @@ def test_anotimp_piersica():
         assert True
     else:
         assert False
+        
+        '''
+ ------------------------------------
+    #24. VASILE M. Vlad-Andrei - kiwi
+ ------------------------------------
+'''
+
+def test_culoare_kiwi():
+    cul = b_fructe.culoare_kiwi()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_kiwi():
+    inf = b_fructe.gust_kiwi()
+    if inf == 'sarat':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_kiwi():
+    inf = b_fructe.anotimp_kiwi()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False

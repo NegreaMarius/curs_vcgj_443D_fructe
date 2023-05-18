@@ -89,3 +89,18 @@ def anotimp_piersica():
     return("vara")
 
     
+    '''
+ ------------------------------------
+    #24. VASILE M. Vlad-Andrei - kiwi
+ ------------------------------------
+'''
+
+def culoare_kiwi():
+    return("verde")
+
+def gust_kiwi():
+    return("sarat")
+
+def anotimp_kiwi():
+    return("vara")
+
