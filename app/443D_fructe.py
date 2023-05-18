@@ -92,4 +92,46 @@ def obtine_anotimp_rodie():
     ret += lib.biblioteca_fructe.anotimp_rodie()
     return ret
 
+'''
+ ------------------------------------
+    #03. BĂNESCU A.F. Alexandru - capsuna
+ ------------------------------------
+'''
+
+@app.route("/capsuna", methods=['GET'])
+def obtine_capsuna():
+    ret = "<h1>capsuna:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_capsuna()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_capsuna()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_capsuna()
+    ret += "<br>"
+
+    print("DBG: apel obtine_capsuna")
+    return ret
+
+@app.route("/capsuna/culoare", methods=['GET'])
+def obtine_culoare_capsuna():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_capsuna()
+    return ret
+
+@app.route("/capsuna/gust", methods=['GET'])
+def obtine_gust_capsuna():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_capsuna()
+    return ret
+
+@app.route("/capsuna/anotimp", methods=['GET'])
+def obtine_anotimp_capsuna():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_capsuna()
+    return ret
+    
 app.run(host = "127.0.0.1", port = 5002)

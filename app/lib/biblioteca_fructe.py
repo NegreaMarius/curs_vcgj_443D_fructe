@@ -27,3 +27,18 @@ def gust_rodie():
 
 def anotimp_rodie():
     return("toamna")
+    
+    '''
+ ------------------------------------
+    #03. BĂNESCU A.F. Alexandru - capsuna
+ ------------------------------------
+'''
+
+def culoare_capsuna():
+    return("rosu")
+
+def gust_capsuna():
+    return("dulce")
+
+def anotimp_capsuna():
+    return("toamna")
