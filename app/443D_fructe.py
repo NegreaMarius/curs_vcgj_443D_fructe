@@ -301,4 +301,47 @@ def obtine_anotimp_kiwi():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_kiwi()
     return ret 
+    
+    '''
+ ------------------------------------
+    #22. TUDOSE V.D. Bogdan-Mihai - portocala
+ ------------------------------------
+'''
+
+@app.route("/portocala", methods=['GET'])
+def obtine_portocala():
+    ret = "<h1>portocala:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_portocala()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_portocala()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_portocala()
+    ret += "<br>"
+
+    print("DBG: apel obtine_portocala")
+    return ret
+
+@app.route("/portocala/culoare", methods=['GET'])
+def obtine_culoare_portocala():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_portocala()
+    return ret
+
+@app.route("/portocala/gust", methods=['GET'])
+def obtine_gust_portocala():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_portocala()
+    return ret
+
+@app.route("/portocala/anotimp", methods=['GET'])
+def obtine_anotimp_portocala():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_portocala()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)

@@ -187,3 +187,31 @@ def test_anotimp_kiwi():
         assert True
     else:
         assert False
+        
+        
+'''
+ ------------------------------------
+    #22. TUDOSE V.D. Bogdan-Mihai - portocala
+ ------------------------------------
+'''
+
+def test_culoare_portocala():
+    cul = b_fructe.culoare_portocala()
+    if cul == 'portocaliu':
+        assert True
+    else:
+        assert False
+
+def test_gust_portocala():
+    inf = b_fructe.gust_portocala()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_portocala():
+    inf = b_fructe.anotimp_portocala()
+    if inf == 'iarna':
+        assert True
+    else:
+        assert False
