@@ -175,5 +175,47 @@ def obtine_anotimp_mar():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_mar()
     return ret
+    
+'''
+ ------------------------------------
+    #19. ŞPAN O. Lorin - vanata
+ ------------------------------------
+'''
+
+@app.route("/vanata", methods=['GET'])
+def obtine_vanata():
+    ret = "<h1>vanata:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_vanata()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_vanata()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_vanata()
+    ret += "<br>"
+
+    print("DBG: apel obtine_vanata")
+    return ret
+
+@app.route("/vanata/culoare", methods=['GET'])
+def obtine_culoare_vanata():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_vanata()
+    return ret
+
+@app.route("/vanata/gust", methods=['GET'])
+def obtine_gust_vanata():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_vanata()
+    return ret
+
+@app.route("/vanata/anotimp", methods=['GET'])
+def obtine_anotimp_vanata():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_vanata()
+    return ret
       
 app.run(host = "127.0.0.1", port = 5002)
