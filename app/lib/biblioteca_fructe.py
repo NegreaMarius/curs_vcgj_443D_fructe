@@ -104,3 +104,17 @@ def gust_kiwi():
 def anotimp_kiwi():
     return("vara")
 
+'''
+ ------------------------------------
+    #22. TUDOSE V.D. Bogdan-Mihai - portocala
+ ------------------------------------
+'''
+
+def culoare_portocala():
+    return("portocaliu")
+
+def gust_portocala():
+    return("dulce_acrisor")
+
+def anotimp_portocala():
+    return("iarna")
