@@ -242,3 +242,18 @@ def gust_mandarina():
 def anotimp_mandarina():
     return("primavara")
 
+'''
+ ------------------------------------
+    #18. ŞERBULEA J. Ana-Corina - curmala
+ ------------------------------------
+'''
+
+def culoare_curmala():
+    return("lila")
+
+def gust_curmala():
+    return("dulce_acrisor")
+
+def anotimp_curmala():
+    return("primavara")
+

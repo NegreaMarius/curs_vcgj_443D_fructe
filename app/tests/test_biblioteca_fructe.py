@@ -433,3 +433,31 @@ def test_anotimp_mandarina():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #18. ŞERBULEA J. Ana-Corina - curmala
+ ------------------------------------
+'''
+
+def test_culoare_curmala():
+    cul = b_fructe.culoare_curmala()
+    if cul == 'lila':
+        assert True
+    else:
+        assert False
+
+def test_gust_curmala():
+    inf = b_fructe.gust_curmala()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_curmala():
+    inf = b_fructe.anotimp_curmala()
+    if inf == 'primavara':
+        assert True
+    else:
+        assert False
+        
