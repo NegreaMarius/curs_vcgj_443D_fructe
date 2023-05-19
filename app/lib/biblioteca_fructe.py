@@ -133,3 +133,20 @@ def gust_avocado():
 
 def anotimp_avocado():
     return("toate")
+    
+    
+'''
+ ------------------------------------
+    #23. URZICĂ C. Andrei-Octavian - ananas
+ ------------------------------------
+'''
+
+def culoare_ananas():
+    return("galben")
+
+def gust_ananas():
+    return("dulce_acrisor")
+
+def anotimp_ananas():
+    return("vara")
+

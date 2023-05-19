@@ -244,4 +244,30 @@ def test_anotimp_avocado():
     else:
         assert False
         
-        
+     
+'''
+ ------------------------------------
+    #23. URZICĂ C. Andrei-Octavian - ananas
+ ------------------------------------
+'''
+
+def test_culoare_ananas():
+    cul = b_fructe.culoare_ananas()
+    if cul == 'galben':
+        assert True
+    else:
+        assert False
+
+def test_gust_ananas():
+    inf = b_fructe.gust_ananas()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_ananas():
+    inf = b_fructe.anotimp_ananas()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False   
