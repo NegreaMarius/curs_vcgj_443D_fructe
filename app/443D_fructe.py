@@ -805,5 +805,48 @@ def obtine_gust_papaya():
 def obtine_anotimp_papaya():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_papaya()
-    return ret 
+    return ret
+    
+'''
+ ------------------------------------
+    #06. IANCU M. Matei-Theodor - smochina
+ ------------------------------------
+'''
+
+@app.route("/smochina", methods=['GET'])
+def obtine_smochina():
+    ret = "<h1>smochina:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_smochina()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_smochina()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_smochina()
+    ret += "<br>"
+
+    print("DBG: apel obtine_smochina")
+    return ret
+
+@app.route("/smochina/culoare", methods=['GET'])
+def obtine_culoare_smochina():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_smochina()
+    return ret
+
+@app.route("/smochina/gust", methods=['GET'])
+def obtine_gust_smochina():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_smochina()
+    return ret
+
+@app.route("/smochina/anotimp", methods=['GET'])
+def obtine_anotimp_smochina():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_smochina()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)
