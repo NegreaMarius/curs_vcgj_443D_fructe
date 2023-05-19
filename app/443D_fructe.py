@@ -680,5 +680,46 @@ def obtine_anotimp_mandarina():
     ret += lib.biblioteca_fructe.anotimp_mandarina()
     return ret
 
+'''
+ ------------------------------------
+    #18. ŞERBULEA J. Ana-Corina - curmala
+ ------------------------------------
+'''
+
+@app.route("/curmala", methods=['GET'])
+def obtine_curmala():
+    ret = "<h1>curmala:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_curmala()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_curmala()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_curmala()
+    ret += "<br>"
+
+    print("DBG: apel obtine_curmala")
+    return ret
+
+@app.route("/curmala/culoare", methods=['GET'])
+def obtine_culoare_curmala():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_curmala()
+    return ret
+
+@app.route("/curmala/gust", methods=['GET'])
+def obtine_gust_curmala():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_curmala()
+    return ret
+
+@app.route("/curmala/anotimp", methods=['GET'])
+def obtine_anotimp_curmala():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_curmala()
+    return ret
     
 app.run(host = "127.0.0.1", port = 5002)
