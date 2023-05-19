@@ -271,3 +271,19 @@ def gust_cireasa():
 
 def anotimp_cireasa():
     return("vara")
+    
+'''
+ ------------------------------------
+    #16. SIMA D. Andrei-Mihai - papaya
+ ------------------------------------
+'''
+
+def culoare_papaya():
+    return("galben")
+
+def gust_papaya():
+    return("dulce")
+
+def anotimp_papaya():
+    return("vara")
+
