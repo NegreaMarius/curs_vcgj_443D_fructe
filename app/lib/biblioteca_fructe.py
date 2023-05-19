@@ -317,4 +317,17 @@ def gust_caisa():
 def anotimp_caisa():
     return("vara")
 
+'''
+ ------------------------------------
+    #08. LABEŞ N.G. Andreea-Georgiana - pruna
+ ------------------------------------
+'''
 
+def culoare_pruna():
+    return("mov")
+
+def gust_pruna():
+    return("dulce_acrisor")
+
+def anotimp_pruna():
+    return("toamna")

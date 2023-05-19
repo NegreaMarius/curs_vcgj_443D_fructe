@@ -568,3 +568,30 @@ def test_anotimp_caisa():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #08. LABEŞ N.G. Andreea-Georgiana - pruna
+ ------------------------------------
+'''
+
+def test_culoare_pruna():
+    cul = b_fructe.culoare_pruna()
+    if cul == 'mov':
+        assert True
+    else:
+        assert False
+
+def test_gust_pruna():
+    inf = b_fructe.gust_pruna()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_pruna():
+    inf = b_fructe.anotimp_pruna()
+    if inf == 'toamna':
+        assert True
+    else:
+        assert False
