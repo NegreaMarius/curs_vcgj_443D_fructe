@@ -435,3 +435,6 @@ sudo docker rmi IMAGE ID
 
 # LABEŞ N.G. Andreea-Georgiana - pruna: 
 [README_andreealabes_pruna](./README_andreealabes_pruna.md)
+
+# ALBU O.T. Marius-Andrei - visine: 
+[README_MariusAAlbu_visine](./README_MariusAAlbu_visine.md)
