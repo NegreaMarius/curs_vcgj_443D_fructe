@@ -346,3 +346,19 @@ def gust_visine():
 
 def anotimp_visine():
     return("vara")
+    
+'''
+ ------------------------------------
+    #15. RUŢĂ M. Tiberiu-Mirel - mango
+ ------------------------------------
+'''
+
+def culoare_mango():
+    return("portocaliu")
+
+def gust_mango():
+    return("dulce")
+
+def anotimp_mango():
+    return("lidl")
+

@@ -622,3 +622,30 @@ def test_anotimp_visine():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #15. RUŢĂ M. Tiberiu-Mirel - mango
+ ------------------------------------
+'''
+
+def test_culoare_mango():
+    cul = b_fructe.culoare_mango()
+    if cul == 'portocaliu':
+        assert True
+    else:
+        assert False
+
+def test_gust_mango():
+    inf = b_fructe.gust_mango()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_mango():
+    inf = b_fructe.anotimp_mango()
+    if inf == 'lidl':
+        assert True
+    else:
+        assert False
