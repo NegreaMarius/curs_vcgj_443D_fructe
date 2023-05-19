@@ -405,3 +405,6 @@ sudo docker rmi IMAGE ID
 
 # ROŞU E. Georgiana - pepene_rosu: 
 [README_Georgiana008_pepene_rosu](./README_Georgiana008_pepene_rosu.md)
+
+# ARNĂUTU V. Gabriel-Dorin - clementina: 
+[README_gabrielarnautu_clementina](./README_gabrielarnautu_clementina.md)
