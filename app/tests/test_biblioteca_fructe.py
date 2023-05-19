@@ -379,3 +379,30 @@ def test_anotimp_banana():
         assert True
     else:
         assert False
+ 
+'''
+ ------------------------------------
+    #20. ŞTEFAN E. Ion-Alexandru - strugure
+ ------------------------------------
+'''
+
+def test_culoare_strugure():
+    cul = b_fructe.culoare_strugure()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_strugure():
+    inf = b_fructe.gust_strugure()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_strugure():
+    inf = b_fructe.anotimp_strugure()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False 
