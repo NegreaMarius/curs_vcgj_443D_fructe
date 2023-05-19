@@ -595,5 +595,47 @@ def obtine_anotimp_banana():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_banana()
     return ret
+
+'''
+ ------------------------------------
+    #20. ŞTEFAN E. Ion-Alexandru - strugure
+ ------------------------------------
+'''
+
+@app.route("/strugure", methods=['GET'])
+def obtine_strugure():
+    ret = "<h1>strugure:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_strugure()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_strugure()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_strugure()
+    ret += "<br>"
+
+    print("DBG: apel obtine_strugure")
+    return ret
+
+@app.route("/strugure/culoare", methods=['GET'])
+def obtine_culoare_strugure():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_strugure()
+    return ret
+
+@app.route("/strugure/gust", methods=['GET'])
+def obtine_gust_strugure():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_strugure()
+    return ret
+
+@app.route("/strugure/anotimp", methods=['GET'])
+def obtine_anotimp_strugure():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_strugure()
+    return ret
     
 app.run(host = "127.0.0.1", port = 5002)

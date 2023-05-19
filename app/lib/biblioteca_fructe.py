@@ -212,3 +212,18 @@ def gust_banana():
 def anotimp_banana():
     return("toate")
 
+'''
+ ------------------------------------
+    #20. ŞTEFAN E. Ion-Alexandru - strugure
+ ------------------------------------
+'''
+
+def culoare_strugure():
+    return("verde")
+
+def gust_strugure():
+    return("dulce")
+
+def anotimp_strugure():
+    return("vara")
+
