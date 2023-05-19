@@ -432,3 +432,6 @@ sudo docker rmi IMAGE ID
 
 # ROCEANU E. Adelin-Adrian - caisa: 
 [README_adelinjokeru_caisa](./README_adelinjokeru_caisa.md)
+
+# LABEŞ N.G. Andreea-Georgiana - pruna: 
+[README_andreealabes_pruna](./README_andreealabes_pruna.md)
