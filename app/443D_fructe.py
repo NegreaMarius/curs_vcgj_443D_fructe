@@ -974,4 +974,47 @@ def obtine_anotimp_visine():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_visine()
     return ret
+    
+'''
+ ------------------------------------
+    #15. RUŢĂ M. Tiberiu-Mirel - mango
+ ------------------------------------
+'''
+
+@app.route("/mango", methods=['GET'])
+def obtine_mango():
+    ret = "<h1>mango:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_mango()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_mango()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_mango()
+    ret += "<br>"
+
+    print("DBG: apel obtine_mango")
+    return ret
+
+@app.route("/mango/culoare", methods=['GET'])
+def obtine_culoare_mango():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_mango()
+    return ret
+
+@app.route("/mango/gust", methods=['GET'])
+def obtine_gust_mango():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_mango()
+    return ret
+
+@app.route("/mango/anotimp", methods=['GET'])
+def obtine_anotimp_mango():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_mango()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)
