@@ -595,3 +595,30 @@ def test_anotimp_pruna():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #01. ALBU O.T. Marius-Andrei - visine
+ ------------------------------------
+'''
+
+def test_culoare_visine():
+    cul = b_fructe.culoare_visine()
+    if cul == 'visiniu':
+        assert True
+    else:
+        assert False
+
+def test_gust_visine():
+    inf = b_fructe.gust_visine()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_visine():
+    inf = b_fructe.anotimp_visine()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False

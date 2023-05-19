@@ -932,4 +932,46 @@ def obtine_anotimp_pruna():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_pruna()
     return ret
+    
+'''
+ ------------------------------------
+    #01. ALBU O.T. Marius-Andrei - visine
+ ------------------------------------
+'''
+
+@app.route("/visine", methods=['GET'])
+def obtine_visine():
+    ret = "<h1>visine:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_visine()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_visine()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_visine()
+    ret += "<br>"
+
+    print("DBG: apel obtine_visine")
+    return ret
+
+@app.route("/visine/culoare", methods=['GET'])
+def obtine_culoare_visine():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_visine()
+    return ret
+
+@app.route("/visine/gust", methods=['GET'])
+def obtine_gust_visine():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_visine()
+    return ret
+
+@app.route("/visine/anotimp", methods=['GET'])
+def obtine_anotimp_visine():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_visine()
+    return ret
 app.run(host = "127.0.0.1", port = 5002)

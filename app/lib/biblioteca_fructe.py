@@ -331,3 +331,18 @@ def gust_pruna():
 
 def anotimp_pruna():
     return("toamna")
+    
+'''
+ ------------------------------------
+    #01. ALBU O.T. Marius-Andrei - visine
+ ------------------------------------
+'''
+
+def culoare_visine():
+    return("visiniu")
+
+def gust_visine():
+    return("dulce_acrisor")
+
+def anotimp_visine():
+    return("vara")
