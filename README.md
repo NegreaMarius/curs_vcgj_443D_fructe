@@ -4,6 +4,7 @@ Virtual Box: https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-1
 Ubuntu: https://releases.ubuntu.com/kinetic/ubuntu-22.10-desktop-amd64.iso
 
 sudo apt install vim -y
+
 sudo apt install net-tools -y
 sudo apt install build-essential dkms linux-headers-$(uname -r) -y
 sudo mkdir /mnt/cdrom
