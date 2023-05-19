@@ -722,4 +722,45 @@ def obtine_anotimp_curmala():
     ret += lib.biblioteca_fructe.anotimp_curmala()
     return ret
     
+'''
+ ------------------------------------
+    #05. GHIOJDEANU C.O. Ştefan-Mihnea - cireasa
+ ------------------------------------
+'''
+
+@app.route("/cireasa", methods=['GET'])
+def obtine_cireasa():
+    ret = "<h1>cireasa:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_cireasa()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_cireasa()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_cireasa()
+    ret += "<br>"
+
+    print("DBG: apel obtine_cireasa")
+    return ret
+
+@app.route("/cireasa/culoare", methods=['GET'])
+def obtine_culoare_cireasa():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_cireasa()
+    return ret
+
+@app.route("/cireasa/gust", methods=['GET'])
+def obtine_gust_cireasa():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_cireasa()
+    return ret
+
+@app.route("/cireasa/anotimp", methods=['GET'])
+def obtine_anotimp_cireasa():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_cireasa()
+    return ret
 app.run(host = "127.0.0.1", port = 5002)

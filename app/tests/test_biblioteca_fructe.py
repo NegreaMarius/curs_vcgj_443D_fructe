@@ -461,3 +461,30 @@ def test_anotimp_curmala():
     else:
         assert False
         
+'''
+ ------------------------------------
+    #05. GHIOJDEANU C.O. Ştefan-Mihnea - cireasa
+ ------------------------------------
+'''
+
+def test_culoare_cireasa():
+    cul = b_fructe.culoare_cireasa()
+    if cul == 'rosu':
+        assert True
+    else:
+        assert False
+
+def test_gust_cireasa():
+    inf = b_fructe.gust_cireasa()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_cireasa():
+    inf = b_fructe.anotimp_cireasa()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False
+        
