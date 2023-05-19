@@ -399,3 +399,6 @@ sudo docker rmi IMAGE ID
 
 # URZICĂ C. Andrei-Octavian - ananas: 
 [README_andreiurzica1_ananas](./README_andreiurzica1_ananas.md)
+
+# PARPALEA I.V. Alexandra - pepene_galben: 
+[README_alexandraparpalea1510_pepene_galben](./README_alexandraparpalea1510_pepene_galben.md)
