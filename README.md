@@ -420,3 +420,6 @@ sudo docker rmi IMAGE ID
 
 # ŞERBULEA J. Ana-Corina - curmala: 
 [README_CorinaSerbulea_curmala](./README_CorinaSerbulea_curmala.md)
+
+# GHIOJDEANU C.O. Ştefan-Mihnea - cireasa: 
+[README_StefanGhio_cireasa](./README_StefanGhio_cireasa.md)
