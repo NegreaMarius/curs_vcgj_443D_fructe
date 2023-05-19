@@ -438,3 +438,6 @@ sudo docker rmi IMAGE ID
 
 # ALBU O.T. Marius-Andrei - visine: 
 [README_MariusAAlbu_visine](./README_MariusAAlbu_visine.md)
+
+# RUŢĂ M. Tiberiu-Mirel - mango: 
+[README_tiberiuruta_mango](./README_tiberiuruta_mango.md)
