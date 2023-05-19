@@ -637,5 +637,48 @@ def obtine_anotimp_strugure():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_strugure()
     return ret
+
+'''
+ ------------------------------------
+    #13. RODRIGUEZ-RAMIREZ-ZAHARIA J.A. Nicolas - mandarina
+ ------------------------------------
+'''
+
+@app.route("/mandarina", methods=['GET'])
+def obtine_mandarina():
+    ret = "<h1>mandarina:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_mandarina()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_mandarina()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_mandarina()
+    ret += "<br>"
+
+    print("DBG: apel obtine_mandarina")
+    return ret
+
+@app.route("/mandarina/culoare", methods=['GET'])
+def obtine_culoare_mandarina():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_mandarina()
+    return ret
+
+@app.route("/mandarina/gust", methods=['GET'])
+def obtine_gust_mandarina():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_mandarina()
+    return ret
+
+@app.route("/mandarina/anotimp", methods=['GET'])
+def obtine_anotimp_mandarina():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_mandarina()
+    return ret
+
     
 app.run(host = "127.0.0.1", port = 5002)

@@ -227,3 +227,18 @@ def gust_strugure():
 def anotimp_strugure():
     return("vara")
 
+'''
+ ------------------------------------
+    #13. RODRIGUEZ-RAMIREZ-ZAHARIA J.A. Nicolas - mandarina
+ ------------------------------------
+'''
+
+def culoare_mandarina():
+    return("portocaliu")
+
+def gust_mandarina():
+    return("dulce")
+
+def anotimp_mandarina():
+    return("primavara")
+
