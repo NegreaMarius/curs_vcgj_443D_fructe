@@ -118,3 +118,18 @@ def gust_portocala():
 
 def anotimp_portocala():
     return("iarna")
+    
+    '''
+ ------------------------------------
+    #17. STĂNCULESCU M. Andrei - avocado
+ ------------------------------------
+'''
+
+def culoare_avocado():
+    return("verde")
+
+def gust_avocado():
+    return("neutru")
+
+def anotimp_avocado():
+    return("toate")

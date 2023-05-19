@@ -344,4 +344,46 @@ def obtine_anotimp_portocala():
     ret += lib.biblioteca_fructe.anotimp_portocala()
     return ret
 
+'''
+ ------------------------------------
+    #17. STĂNCULESCU M. Andrei - avocado
+ ------------------------------------
+'''
+
+@app.route("/avocado", methods=['GET'])
+def obtine_avocado():
+    ret = "<h1>avocado:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_avocado()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_avocado()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_avocado()
+    ret += "<br>"
+
+    print("DBG: apel obtine_avocado")
+    return ret
+
+@app.route("/avocado/culoare", methods=['GET'])
+def obtine_culoare_avocado():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_avocado()
+    return ret
+
+@app.route("/avocado/gust", methods=['GET'])
+def obtine_gust_avocado():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_avocado()
+    return ret
+
+@app.route("/avocado/anotimp", methods=['GET'])
+def obtine_anotimp_avocado():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_avocado()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)

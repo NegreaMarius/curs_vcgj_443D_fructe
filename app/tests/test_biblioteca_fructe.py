@@ -215,3 +215,33 @@ def test_anotimp_portocala():
         assert True
     else:
         assert False
+        
+        
+'''
+ ------------------------------------
+    #17. STĂNCULESCU M. Andrei - avocado
+ ------------------------------------
+'''
+
+def test_culoare_avocado():
+    cul = b_fructe.culoare_avocado()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_avocado():
+    inf = b_fructe.gust_avocado()
+    if inf == 'neutru':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_avocado():
+    inf = b_fructe.anotimp_avocado()
+    if inf == 'toate':
+        assert True
+    else:
+        assert False
+        
+        
