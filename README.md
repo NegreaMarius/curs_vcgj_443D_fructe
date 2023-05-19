@@ -408,3 +408,6 @@ sudo docker rmi IMAGE ID
 
 # ARNĂUTU V. Gabriel-Dorin - clementina: 
 [README_gabrielarnautu_clementina](./README_gabrielarnautu_clementina.md)
+
+# TEODORESCU T.I. Ciprian - banana: 
+[README_ciprianteodorescu_banana](./README_ciprianteodorescu_banana.md)
