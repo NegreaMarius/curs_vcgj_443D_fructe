@@ -301,5 +301,20 @@ def gust_smochina():
 
 def anotimp_smochina():
     return("toamna")
+    
+'''
+ ------------------------------------
+    #12. ROCEANU E. Adelin-Adrian - caisa
+ ------------------------------------
+'''
+
+def culoare_caisa():
+    return("galben")
+
+def gust_caisa():
+    return("dulce_acrisor")
+
+def anotimp_caisa():
+    return("vara")
 
 

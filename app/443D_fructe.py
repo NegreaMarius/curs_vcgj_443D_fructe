@@ -849,4 +849,46 @@ def obtine_anotimp_smochina():
     ret += lib.biblioteca_fructe.anotimp_smochina()
     return ret
 
+'''
+ ------------------------------------
+    #12. ROCEANU E. Adelin-Adrian - caisa
+ ------------------------------------
+'''
+
+@app.route("/caisa", methods=['GET'])
+def obtine_caisa():
+    ret = "<h1>caisa:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_caisa()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_caisa()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_caisa()
+    ret += "<br>"
+
+    print("DBG: apel obtine_caisa")
+    return ret
+
+@app.route("/caisa/culoare", methods=['GET'])
+def obtine_culoare_caisa():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_caisa()
+    return ret
+
+@app.route("/caisa/gust", methods=['GET'])
+def obtine_gust_caisa():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_caisa()
+    return ret
+
+@app.route("/caisa/anotimp", methods=['GET'])
+def obtine_anotimp_caisa():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_caisa()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)

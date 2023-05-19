@@ -541,3 +541,30 @@ def test_anotimp_smochina():
         assert True
     else:
         assert False
+
+'''
+ ------------------------------------
+    #12. ROCEANU E. Adelin-Adrian - caisa
+ ------------------------------------
+'''
+
+def test_culoare_caisa():
+    cul = b_fructe.culoare_caisa()
+    if cul == 'galben':
+        assert True
+    else:
+        assert False
+
+def test_gust_caisa():
+    inf = b_fructe.gust_caisa()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_caisa():
+    inf = b_fructe.anotimp_caisa()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False
