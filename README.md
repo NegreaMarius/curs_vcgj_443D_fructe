@@ -411,3 +411,6 @@ sudo docker rmi IMAGE ID
 
 # TEODORESCU T.I. Ciprian - banana: 
 [README_ciprianteodorescu_banana](./README_ciprianteodorescu_banana.md)
+
+# ŞTEFAN E. Ion-Alexandru - strugure: 
+[README_StefanAlexandru18_strugure](./README_StefanAlexandru18_strugure.md)
