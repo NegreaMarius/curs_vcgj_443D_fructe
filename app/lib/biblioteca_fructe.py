@@ -257,3 +257,17 @@ def gust_curmala():
 def anotimp_curmala():
     return("primavara")
 
+'''
+ ------------------------------------
+    #05. GHIOJDEANU C.O. Ştefan-Mihnea - cireasa
+ ------------------------------------
+'''
+
+def culoare_cireasa():
+    return("rosu")
+
+def gust_cireasa():
+    return("dulce")
+
+def anotimp_cireasa():
+    return("vara")
