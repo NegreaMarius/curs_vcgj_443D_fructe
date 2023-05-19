@@ -426,3 +426,6 @@ sudo docker rmi IMAGE ID
 
 # SIMA D. Andrei-Mihai - papaya: 
 [README_AndreiSima10_papaya](./README_AndreiSima10_papaya.md)
+
+# IANCU M. Matei-Theodor - smochina: 
+[README_iancumatei67_smochina](./README_iancumatei67_smochina.md)
