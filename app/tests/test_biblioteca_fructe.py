@@ -324,6 +324,33 @@ def test_anotimp_pepene_rosu():
     if inf == 'vara':
         assert True
     else:
+        assert False
+        
+'''
+ ------------------------------------
+    #02. ARNĂUTU V. Gabriel-Dorin - clementina
+ ------------------------------------
+'''
+
+def test_culoare_clementina():
+    cul = b_fructe.culoare_clementina()
+    if cul == 'potocaliu':
+        assert True
+    else:
+        assert False
+
+def test_gust_clementina():
+    inf = b_fructe.gust_clementina()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_clementina():
+    inf = b_fructe.anotimp_clementina()
+    if inf == 'iarna':
+        assert True
+    else:
         assert False        
         
         

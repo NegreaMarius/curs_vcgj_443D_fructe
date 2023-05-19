@@ -512,5 +512,45 @@ def obtine_anotimp_pepene_rosu():
     ret += lib.biblioteca_fructe.anotimp_pepene_rosu()
     return ret
 
+'''
+ ------------------------------------
+    #02. ARNĂUTU V. Gabriel-Dorin - clementina
+ ------------------------------------
+'''
 
+@app.route("/clementina", methods=['GET'])
+def obtine_clementina():
+    ret = "<h1>clementina:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_clementina()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_clementina()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_clementina()
+    ret += "<br>"
+
+    print("DBG: apel obtine_clementina")
+    return ret
+
+@app.route("/clementina/culoare", methods=['GET'])
+def obtine_culoare_clementina():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_clementina()
+    return ret
+
+@app.route("/clementina/gust", methods=['GET'])
+def obtine_gust_clementina():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_clementina()
+    return ret
+
+@app.route("/clementina/anotimp", methods=['GET'])
+def obtine_anotimp_clementina():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_clementina()
+    return ret
 app.run(host = "127.0.0.1", port = 5002)
