@@ -429,3 +429,6 @@ sudo docker rmi IMAGE ID
 
 # IANCU M. Matei-Theodor - smochina: 
 [README_iancumatei67_smochina](./README_iancumatei67_smochina.md)
+
+# ROCEANU E. Adelin-Adrian - caisa: 
+[README_adelinjokeru_caisa](./README_adelinjokeru_caisa.md)
