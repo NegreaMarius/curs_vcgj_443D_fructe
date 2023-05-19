@@ -6,13 +6,20 @@ Ubuntu: https://releases.ubuntu.com/kinetic/ubuntu-22.10-desktop-amd64.iso
 sudo apt install vim -y
 
 sudo apt install net-tools -y
+
 sudo apt install build-essential dkms linux-headers-$(uname -r) -y
+
 sudo mkdir /mnt/cdrom
+
 sudo mount /dev/cdrom /mnt/cdrom
+
 sudo ./VboxLinuxAdditions.run
 
+
 Verificare functionare:
+
 ~merge copy paste de pe PCul de baza pe masina virtuala si invers
+
 ~rezolutia se schimba cand redimesionezi fereastra (nu ramane un patrat)
 
 
@@ -24,15 +31,21 @@ Creare oriunde (Desktop, Home, etc) a unui folder numit "git"
 ![Figura1FolderGit](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/e48fdae6-965d-41b3-b258-180ea2674f85)
 
 Click dreapta->New folder
+
 Apoi click dreapta *in interiorul* folderului "git" -> Open in Terminal
 
 sudo apt update
+
 sudo apt install git-all
+
 #Daca va da cctu ala de "Waiting for cache lock..." ca in video, introduceti comanda de mai sus pana merge
+
 sudo apt intall python3.10-venv
 
 Verificare functionare:
+
 *IN TERMINAL:
+
 git
 
 ![Figura2VerificareGit](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/a75eed49-a74b-4931-a11a-cda7b2ab9483)
