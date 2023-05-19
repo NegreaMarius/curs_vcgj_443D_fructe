@@ -427,4 +427,46 @@ def obtine_anotimp_ananas():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_ananas()
     return ret
+    
+    '''
+ ------------------------------------
+    #11. PARPALEA I.V. Alexandra - pepene_galben
+ ------------------------------------
+'''
+
+@app.route("/pepene_galben", methods=['GET'])
+def obtine_pepene_galben():
+    ret = "<h1>pepene_galben:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_pepene_galben()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_pepene_galben()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_pepene_galben()
+    ret += "<br>"
+
+    print("DBG: apel obtine_pepene_galben")
+    return ret
+
+@app.route("/pepene_galben/culoare", methods=['GET'])
+def obtine_culoare_pepene_galben():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_pepene_galben()
+    return ret
+
+@app.route("/pepene_galben/gust", methods=['GET'])
+def obtine_gust_pepene_galben():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_pepene_galben()
+    return ret
+
+@app.route("/pepene_galben/anotimp", methods=['GET'])
+def obtine_anotimp_pepene_galben():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_pepene_galben()
+    return ret
 app.run(host = "127.0.0.1", port = 5002)

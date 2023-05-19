@@ -149,4 +149,20 @@ def gust_ananas():
 
 def anotimp_ananas():
     return("vara")
+    
+    '''
+ ------------------------------------
+    #11. PARPALEA I.V. Alexandra - pepene_galben
+ ------------------------------------
+'''
+
+def culoare_pepene_galben():
+    return("galben")
+
+def gust_pepene_galben():
+    return("dulce")
+
+def anotimp_pepene_galben():
+    return("vara")
+
 

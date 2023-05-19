@@ -270,4 +270,31 @@ def test_anotimp_ananas():
     if inf == 'vara':
         assert True
     else:
-        assert False   
+        assert False 
+        
+        '''
+ ------------------------------------
+    #11. PARPALEA I.V. Alexandra - pepene_galben
+ ------------------------------------
+'''
+
+def test_culoare_pepene_galben():
+    cul = b_fructe.culoare_pepene_galben()
+    if cul == 'galben':
+        assert True
+    else:
+        assert False
+
+def test_gust_pepene_galben():
+    inf = b_fructe.gust_pepene_galben()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_pepene_galben():
+    inf = b_fructe.anotimp_pepene_galben()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False  
