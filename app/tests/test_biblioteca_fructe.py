@@ -353,4 +353,29 @@ def test_anotimp_clementina():
     else:
         assert False        
         
-        
+'''
+ ------------------------------------
+    #21. TEODORESCU T.I. Ciprian - banana
+ ------------------------------------
+'''
+
+def test_culoare_banana():
+    cul = b_fructe.culoare_banana()
+    if cul == 'galben':
+        assert True
+    else:
+        assert False
+
+def test_gust_banana():
+    inf = b_fructe.gust_banana()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_banana():
+    inf = b_fructe.anotimp_banana()
+    if inf == 'toate':
+        assert True
+    else:
+        assert False

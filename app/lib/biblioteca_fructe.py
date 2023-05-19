@@ -196,4 +196,19 @@ def gust_clementina():
 
 def anotimp_clementina():
     return("iarna")
+   
+'''
+ ------------------------------------
+    #21. TEODORESCU T.I. Ciprian - banana
+ ------------------------------------
+'''
+
+def culoare_banana():
+    return("galben")
+
+def gust_banana():
+    return("dulce")
+
+def anotimp_banana():
+    return("toate")
 
