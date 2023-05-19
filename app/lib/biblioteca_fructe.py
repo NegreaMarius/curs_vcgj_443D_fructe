@@ -118,3 +118,18 @@ def gust_portocala():
 
 def anotimp_portocala():
     return("iarna")
+    
+'''
+ ------------------------------------
+    #21. TEODORESCU T.I. Ciprian - banana
+ ------------------------------------
+'''
+
+def culoare_banana():
+    return("galben")
+
+def gust_banana():
+    return("dulce")
+
+def anotimp_banana():
+    return("toate")
