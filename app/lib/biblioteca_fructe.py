@@ -181,3 +181,19 @@ def gust_pepene_rosu():
 
 def anotimp_pepene_rosu():
     return("vara")
+    
+'''
+ ------------------------------------
+    #02. ARNĂUTU V. Gabriel-Dorin - clementina
+ ------------------------------------
+'''
+
+def culoare_clementina():
+    return("potocaliu")
+
+def gust_clementina():
+    return("dulce_acrisor")
+
+def anotimp_clementina():
+    return("iarna")
+
