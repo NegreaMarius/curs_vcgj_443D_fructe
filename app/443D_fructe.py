@@ -386,4 +386,45 @@ def obtine_anotimp_avocado():
     ret += lib.biblioteca_fructe.anotimp_avocado()
     return ret
 
+'''
+ ------------------------------------
+    #23. URZICĂ C. Andrei-Octavian - ananas
+ ------------------------------------
+'''
+
+@app.route("/ananas", methods=['GET'])
+def obtine_ananas():
+    ret = "<h1>ananas:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_ananas()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_ananas()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_ananas()
+    ret += "<br>"
+
+    print("DBG: apel obtine_ananas")
+    return ret
+
+@app.route("/ananas/culoare", methods=['GET'])
+def obtine_culoare_ananas():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_ananas()
+    return ret
+
+@app.route("/ananas/gust", methods=['GET'])
+def obtine_gust_ananas():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_ananas()
+    return ret
+
+@app.route("/ananas/anotimp", methods=['GET'])
+def obtine_anotimp_ananas():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_ananas()
+    return ret
 app.run(host = "127.0.0.1", port = 5002)
