@@ -553,4 +553,47 @@ def obtine_anotimp_clementina():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_clementina()
     return ret
+    
+'''
+ ------------------------------------
+    #21. TEODORESCU T.I. Ciprian - banana
+ ------------------------------------
+'''
+
+@app.route("/banana", methods=['GET'])
+def obtine_banana():
+    ret = "<h1>banana:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_banana()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_banana()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_banana()
+    ret += "<br>"
+
+    print("DBG: apel obtine_banana")
+    return ret
+
+@app.route("/banana/culoare", methods=['GET'])
+def obtine_culoare_banana():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_banana()
+    return ret
+
+@app.route("/banana/gust", methods=['GET'])
+def obtine_gust_banana():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_banana()
+    return ret
+
+@app.route("/banana/anotimp", methods=['GET'])
+def obtine_anotimp_banana():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_banana()
+    return ret
+    
 app.run(host = "127.0.0.1", port = 5002)
