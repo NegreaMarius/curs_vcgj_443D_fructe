@@ -406,3 +406,30 @@ def test_anotimp_strugure():
         assert True
     else:
         assert False 
+
+'''
+ ------------------------------------
+    #13. RODRIGUEZ-RAMIREZ-ZAHARIA J.A. Nicolas - mandarina
+ ------------------------------------
+'''
+
+def test_culoare_mandarina():
+    cul = b_fructe.culoare_mandarina()
+    if cul == 'portocaliu':
+        assert True
+    else:
+        assert False
+
+def test_gust_mandarina():
+    inf = b_fructe.gust_mandarina()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_mandarina():
+    inf = b_fructe.anotimp_mandarina()
+    if inf == 'primavara':
+        assert True
+    else:
+        assert False
