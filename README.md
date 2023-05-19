@@ -444,3 +444,6 @@ sudo docker rmi IMAGE ID
 
 # MARIN L.G. Felicia - pawpaw: 
 [README_FeliciaMarin_pawpaw](./README_FeliciaMarin_pawpaw.md)
+
+# IORDĂCHESCU M.V. Vlad - zmeura: 
+[README_Vladcpp_zmeura](./README_Vladcpp_zmeura.md)
