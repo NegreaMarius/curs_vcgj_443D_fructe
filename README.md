@@ -417,3 +417,6 @@ sudo docker rmi IMAGE ID
 
 # RODRIGUEZ-RAMIREZ-ZAHARIA J.A. Nicolas - mandarina: 
 [README_nico130301_mandarina](./README_nico130301_mandarina.md)
+
+# ŞERBULEA J. Ana-Corina - curmala: 
+[README_CorinaSerbulea_curmala](./README_CorinaSerbulea_curmala.md)
