@@ -763,4 +763,47 @@ def obtine_anotimp_cireasa():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_cireasa()
     return ret
+    
+    
+'''
+ ------------------------------------
+    #16. SIMA D. Andrei-Mihai - papaya
+ ------------------------------------
+'''
+
+@app.route("/papaya", methods=['GET'])
+def obtine_papaya():
+    ret = "<h1>papaya:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_papaya()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_papaya()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_papaya()
+    ret += "<br>"
+
+    print("DBG: apel obtine_papaya")
+    return ret
+
+@app.route("/papaya/culoare", methods=['GET'])
+def obtine_culoare_papaya():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_papaya()
+    return ret
+
+@app.route("/papaya/gust", methods=['GET'])
+def obtine_gust_papaya():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_papaya()
+    return ret
+
+@app.route("/papaya/anotimp", methods=['GET'])
+def obtine_anotimp_papaya():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_papaya()
+    return ret 
 app.run(host = "127.0.0.1", port = 5002)

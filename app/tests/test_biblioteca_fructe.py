@@ -488,3 +488,29 @@ def test_anotimp_cireasa():
     else:
         assert False
         
+'''
+ ------------------------------------
+    #16. SIMA D. Andrei-Mihai - papaya
+ ------------------------------------
+'''
+
+def test_culoare_papaya():
+    cul = b_fructe.culoare_papaya()
+    if cul == 'galben':
+        assert True
+    else:
+        assert False
+
+def test_gust_papaya():
+    inf = b_fructe.gust_papaya()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_papaya():
+    inf = b_fructe.anotimp_papaya()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False
