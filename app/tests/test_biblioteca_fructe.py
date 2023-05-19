@@ -272,7 +272,7 @@ def test_anotimp_ananas():
     else:
         assert False 
         
-        '''
+'''
  ------------------------------------
     #11. PARPALEA I.V. Alexandra - pepene_galben
  ------------------------------------
@@ -297,4 +297,33 @@ def test_anotimp_pepene_galben():
     if inf == 'vara':
         assert True
     else:
-        assert False  
+        assert False
+        
+'''
+ ------------------------------------
+    #14. ROŞU E. Georgiana - pepene_rosu
+ ------------------------------------
+'''
+
+def test_culoare_pepene_rosu():
+    cul = b_fructe.culoare_pepene_rosu()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_pepene_rosu():
+    inf = b_fructe.gust_pepene_rosu()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_pepene_rosu():
+    inf = b_fructe.anotimp_pepene_rosu()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False        
+        
+        

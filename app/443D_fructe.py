@@ -469,4 +469,48 @@ def obtine_anotimp_pepene_galben():
     ret = ""
     ret += lib.biblioteca_fructe.anotimp_pepene_galben()
     return ret
+    
+    '''
+ ------------------------------------
+    #14. ROŞU E. Georgiana - pepene_rosu
+ ------------------------------------
+'''
+
+@app.route("/pepene_rosu", methods=['GET'])
+def obtine_pepene_rosu():
+    ret = "<h1>pepene_rosu:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_pepene_rosu()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_pepene_rosu()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_pepene_rosu()
+    ret += "<br>"
+
+    print("DBG: apel obtine_pepene_rosu")
+    return ret
+
+@app.route("/pepene_rosu/culoare", methods=['GET'])
+def obtine_culoare_pepene_rosu():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_pepene_rosu()
+    return ret
+
+@app.route("/pepene_rosu/gust", methods=['GET'])
+def obtine_gust_pepene_rosu():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_pepene_rosu()
+    return ret
+
+@app.route("/pepene_rosu/anotimp", methods=['GET'])
+def obtine_anotimp_pepene_rosu():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_pepene_rosu()
+    return ret
+
+
 app.run(host = "127.0.0.1", port = 5002)
