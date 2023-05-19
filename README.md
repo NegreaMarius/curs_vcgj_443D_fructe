@@ -393,3 +393,6 @@ sudo docker rmi IMAGE ID
 
 # TUDOSE V.D. Bogdan-Mihai - portocala: 
 [README_bobtudose_portocala](./README_bobtudose_portocala.md)
+
+# URZICĂ C. Andrei-Octavian - ananas: 
+[README_andreiurzica1_ananas](./README_andreiurzica1_ananas.md)
