@@ -1017,4 +1017,46 @@ def obtine_anotimp_mango():
     ret += lib.biblioteca_fructe.anotimp_mango()
     return ret
 
+'''
+ ------------------------------------
+    #09. MARIN L.G. Felicia - pawpaw
+ ------------------------------------
+'''
+
+@app.route("/pawpaw", methods=['GET'])
+def obtine_pawpaw():
+    ret = "<h1>pawpaw:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_pawpaw()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_pawpaw()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_pawpaw()
+    ret += "<br>"
+
+    print("DBG: apel obtine_pawpaw")
+    return ret
+
+@app.route("/pawpaw/culoare", methods=['GET'])
+def obtine_culoare_pawpaw():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_pawpaw()
+    return ret
+
+@app.route("/pawpaw/gust", methods=['GET'])
+def obtine_gust_pawpaw():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_pawpaw()
+    return ret
+
+@app.route("/pawpaw/anotimp", methods=['GET'])
+def obtine_anotimp_pawpaw():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_pawpaw()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)

@@ -649,3 +649,30 @@ def test_anotimp_mango():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #09. MARIN L.G. Felicia - pawpaw
+ ------------------------------------
+'''
+
+def test_culoare_pawpaw():
+    cul = b_fructe.culoare_pawpaw()
+    if cul == 'verde':
+        assert True
+    else:
+        assert False
+
+def test_gust_pawpaw():
+    inf = b_fructe.gust_pawpaw()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_pawpaw():
+    inf = b_fructe.anotimp_pawpaw()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False

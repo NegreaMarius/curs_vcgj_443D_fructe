@@ -361,4 +361,20 @@ def gust_mango():
 
 def anotimp_mango():
     return("lidl")
+    
+'''
+ ------------------------------------
+    #09. MARIN L.G. Felicia - pawpaw
+ ------------------------------------
+'''
+
+def culoare_pawpaw():
+    return("verde")
+
+def gust_pawpaw():
+    return("dulce")
+
+def anotimp_pawpaw():
+    return("vara")
+
 
