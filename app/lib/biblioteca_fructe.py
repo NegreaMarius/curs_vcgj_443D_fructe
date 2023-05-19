@@ -287,3 +287,19 @@ def gust_papaya():
 def anotimp_papaya():
     return("vara")
 
+'''
+ ------------------------------------
+    #06. IANCU M. Matei-Theodor - smochina
+ ------------------------------------
+'''
+
+def culoare_smochina():
+    return("mov")
+
+def gust_smochina():
+    return("dulce")
+
+def anotimp_smochina():
+    return("toamna")
+
+

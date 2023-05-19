@@ -514,3 +514,30 @@ def test_anotimp_papaya():
         assert True
     else:
         assert False
+        
+'''
+ ------------------------------------
+    #06. IANCU M. Matei-Theodor - smochina
+ ------------------------------------
+'''
+
+def test_culoare_smochina():
+    cul = b_fructe.culoare_smochina()
+    if cul == 'mov':
+        assert True
+    else:
+        assert False
+
+def test_gust_smochina():
+    inf = b_fructe.gust_smochina()
+    if inf == 'dulce':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_smochina():
+    inf = b_fructe.anotimp_smochina()
+    if inf == 'toamna':
+        assert True
+    else:
+        assert False
