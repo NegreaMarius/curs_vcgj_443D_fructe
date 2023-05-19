@@ -377,4 +377,17 @@ def gust_pawpaw():
 def anotimp_pawpaw():
     return("vara")
 
+'''
+ ------------------------------------
+    #07. IORDĂCHESCU M.V. Vlad - zmeura
+ ------------------------------------
+'''
 
+def culoare_zmeura():
+    return("roz")
+
+def gust_zmeura():
+    return("dulce_acrisor")
+
+def anotimp_zmeura():
+    return("vara")

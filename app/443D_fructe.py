@@ -1059,4 +1059,46 @@ def obtine_anotimp_pawpaw():
     ret += lib.biblioteca_fructe.anotimp_pawpaw()
     return ret
 
+'''
+ ------------------------------------
+    #07. IORDĂCHESCU M.V. Vlad - zmeura
+ ------------------------------------
+'''
+
+@app.route("/zmeura", methods=['GET'])
+def obtine_zmeura():
+    ret = "<h1>zmeura:</h1>"
+    ret += "<b>Culoare: </b>"
+    ret += lib.biblioteca_fructe.culoare_zmeura()
+    ret += "<br>"
+
+    ret += "<b>Gust: </b>"
+    ret += lib.biblioteca_fructe.gust_zmeura()
+    ret += "<br>"
+
+    ret += "<b>Anotimp: </b>"
+    ret += lib.biblioteca_fructe.anotimp_zmeura()
+    ret += "<br>"
+
+    print("DBG: apel obtine_zmeura")
+    return ret
+
+@app.route("/zmeura/culoare", methods=['GET'])
+def obtine_culoare_zmeura():
+    ret = ""
+    ret += lib.biblioteca_fructe.culoare_zmeura()
+    return ret
+
+@app.route("/zmeura/gust", methods=['GET'])
+def obtine_gust_zmeura():
+    ret = ""
+    ret += lib.biblioteca_fructe.gust_zmeura()
+    return ret
+
+@app.route("/zmeura/anotimp", methods=['GET'])
+def obtine_anotimp_zmeura():
+    ret = ""
+    ret += lib.biblioteca_fructe.anotimp_zmeura()
+    return ret
+
 app.run(host = "127.0.0.1", port = 5002)

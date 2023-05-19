@@ -676,3 +676,30 @@ def test_anotimp_pawpaw():
         assert True
     else:
         assert False
+
+'''
+ ------------------------------------
+    #07. IORDĂCHESCU M.V. Vlad - zmeura
+ ------------------------------------
+'''
+
+def test_culoare_zmeura():
+    cul = b_fructe.culoare_zmeura()
+    if cul == 'roz':
+        assert True
+    else:
+        assert False
+
+def test_gust_zmeura():
+    inf = b_fructe.gust_zmeura()
+    if inf == 'dulce_acrisor':
+        assert True
+    else:
+        assert False
+
+def test_anotimp_zmeura():
+    inf = b_fructe.anotimp_zmeura()
+    if inf == 'vara':
+        assert True
+    else:
+        assert False        
