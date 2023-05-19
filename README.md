@@ -396,3 +396,6 @@ sudo docker rmi IMAGE ID
 
 # STĂNCULESCU M. Andrei - avocado: 
 [README_andstanc_avocado](./README_andstanc_avocado.md)
+
+# URZICĂ C. Andrei-Octavian - ananas: 
+[README_andreiurzica1_ananas](./README_andreiurzica1_ananas.md)
