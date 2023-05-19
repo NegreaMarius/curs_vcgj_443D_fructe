@@ -402,3 +402,6 @@ sudo docker rmi IMAGE ID
 
 # PARPALEA I.V. Alexandra - pepene_galben: 
 [README_alexandraparpalea1510_pepene_galben](./README_alexandraparpalea1510_pepene_galben.md)
+
+# ROŞU E. Georgiana - pepene_rosu: 
+[README_Georgiana008_pepene_rosu](./README_Georgiana008_pepene_rosu.md)
