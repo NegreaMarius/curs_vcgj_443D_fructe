@@ -166,3 +166,18 @@ def anotimp_pepene_galben():
     return("vara")
 
 
+
+'''
+ ------------------------------------
+    #14. ROŞU E. Georgiana - pepene_rosu
+ ------------------------------------
+'''
+
+def culoare_pepene_rosu():
+    return("verde")
+
+def gust_pepene_rosu():
+    return("dulce")
+
+def anotimp_pepene_rosu():
+    return("vara")
