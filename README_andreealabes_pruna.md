@@ -3,11 +3,6 @@
 ![1 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/6f10a095-b845-4745-a223-a199c4338d19)
 
 
-# 6. Test Manual Aplicatie WEB    
-
-![6 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/18423103-6aa5-4d55-b62a-ae9f05257495)
-
-
 # 2. Cod GIT dev          
 
 
@@ -22,6 +17,10 @@
 # 5. Testare cu Jenkins        
 
 ![5 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/253da2e1-0e75-41dd-95b9-7e6e91d62890)
+
+# 6. Test Manual Aplicatie WEB    
+
+![6 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/18423103-6aa5-4d55-b62a-ae9f05257495)
 
 
 # 7&8. Apel+test container      
