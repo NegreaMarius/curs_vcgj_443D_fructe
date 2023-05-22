@@ -3,9 +3,7 @@
 ![1 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/88cb9d90-4cfe-4e93-9004-20943bfff246)
 
 
-# 6. Test Manual Aplicatie WEB    
 
-![6 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/bb681ae4-0f8e-4158-9221-4cb378778e15)
 
 
 # 2. Cod GIT dev          
@@ -23,6 +21,9 @@
 
 ![5 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/7a00bfbb-2cf7-4641-aab5-6abaf1604cfe)
 
+# 6. Test Manual Aplicatie WEB    
+
+![6 1](https://github.com/NegreaMarius/curs_vcgj_443D_fructe/assets/127781317/bb681ae4-0f8e-4158-9221-4cb378778e15)
 
 # 7&8. Apel+test container      
 
